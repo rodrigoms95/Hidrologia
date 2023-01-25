@@ -1,0 +1,42 @@
+python
+2+3
+# Comentario (no se ejecuta)
+# 2 + 3
+2*3
+# Los espacios no son relevantes.
+2 * 3
+2 ** 3
+# Se pueden asignar variables.
+a = 3
+a
+a + 5
+# Los números enteros son tipo int.
+type(a)
+# Los números con decimales son tipo float.
+b = 5.5
+type( b )
+c = a / b
+c
+type(c)
+# Otro tipo de variable son las cadenas de texto
+txt = "hola mundo"
+# escribir el nombre de la variable nos da su valor.
+txt
+# las comillas sencillas ' y las " son equivalentes.
+# Para escribir la variable de manera explícita en el monitor, se imprime su valor.
+print(txt)
+print(c)
+# Las listas representan una secuencia de datos.
+lista_numeros = [ 1, 2, 3 ]
+print(lista_numeros)
+# cada elemento individual se accede por su índice.
+print(lista_numeros[0])
+print(lista_numeros[1])
+# los dobles puntos representan un subconjunto de la lista.
+print( lista_numeros[0:2] )
+# 0:2 une los valores 0 y 1.
+# Un índice negativo empieza al final de la lista.
+print(lista_numeros[-1])
+print(lista_numeros[-2])
+# para salir de python, escribir quit()
+quit()
